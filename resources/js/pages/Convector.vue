@@ -110,9 +110,9 @@ export default {
 
     async requestDataForConvector(id = 1) {
       try {
-        
+
         const { data } = await axios.get(
-          'http://localhost/api/convector/banks',
+          '/api/convector/banks',
           {
             params: {
               bank_id: id,
