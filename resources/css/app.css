@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f9fa!important;
+}
+
+.wrapper {
+    width: 1450px !important;
+    margin: 0 auto;
+}
+
+
+.bank-title {
+    padding: 40px;
+}
+
+
+.bank-title span {
+    font-size: 14px;
+    color: rgb(52, 52, 52);
+}
+
+
+.bank-tables-nav__title {
+    margin-left: 150px;
+    display: block;
+    padding: 0.3rem 1rem;
+}

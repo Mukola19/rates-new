@@ -5,8 +5,23 @@
         "build": "vite build"
     },
     "devDependencies": {
-        "axios": "^1.1.2",
-        "laravel-vite-plugin": "^0.7.2",
-        "vite": "^4.0.0"
+        "@popperjs/core": "^2.11.6",
+        "axios": "^0.27.2",
+        "bootstrap-vue-3": "^0.3.12",
+        "laravel-vite-plugin": "^0.6.0",
+        "lodash": "^4.17.19",
+        "npm": "^8.19.2",
+        "postcss": "^8.1.14",
+        "sass": "^1.55.0",
+        "scss": "^0.2.4",
+        "vite": "^3.0.0"
+    },
+    "dependencies": {
+        "@vitejs/plugin-vue": "^3.1.0",
+        "bootstrap": "^5.2.1",
+        "vue": "^3.2.36",
+        "vue-loader": "^17.0.0",
+        "vue-router": "^4.1.5",
+        "vuex": "^4.0.2"
     }
 }

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BanksController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+Route::prefix('/')->group(function () {
+    Route::get('/', [BanksController::class, 'getAllBanks'])->name('getAllBanks');
+    Route::get('/bank/{id}', [BanksController::class, 'getBankById'])->name('getBankById');
+
+    Route::get('/convector/{any?}', function () {
+        return view('convector');
+    })->where('any', '.*')->name('convector');
 });
