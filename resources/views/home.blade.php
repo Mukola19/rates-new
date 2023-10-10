@@ -45,4 +45,13 @@
             @endforeach
         </tbody>
     </table>
+
+
+    @if(env('IS_LINK', false))
+        <div>
+            <a style="font-size: 40px" href="https://freelancehunt.com/ua/freelancer/eleonora16.html">Дизайнер</a>
+        </div>
+    @endif
+
+
 @endsection
